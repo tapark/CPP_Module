@@ -1,7 +1,7 @@
 SRCS =	./phone_book.cpp \
-		./class_function.cpp \
+		./class_phone_book.cpp \
 
-NAME = a.out
+NAME = phone_book
 
 OBJS = $(SRCS:.cpp=.o)
 INCS = .
