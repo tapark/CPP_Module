@@ -1,5 +1,5 @@
-# ifndef PHONE_BOOK_H
-# define PHONE_BOOK_H
+# ifndef CLASS_PHONE_BOOK_H
+# define CLASS_PHONE_BOOK_H
 
 #include <iostream>
 #include <iomanip>

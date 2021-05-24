@@ -1,7 +1,8 @@
-SRCS =	./phone_book.cpp \
-		./Class_phone_book.cpp \
+SRCS =	./Zombie.cpp \
+		./Class_Zombie.cpp \
+		./Class_ZombieEvent.cpp \
 
-NAME = phone_book
+NAME = Zombie
 
 OBJS = $(SRCS:.cpp=.o)
 INCS = .
@@ -27,7 +28,7 @@ fclean : clean
 
 re : fclean all
 
-test :
+test : all
 		./$(NAME)
 
 retest : re test
